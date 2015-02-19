@@ -1,0 +1,83 @@
+[solr]
+solr_url = http://solr2.eac.zettata.com/solr/staples_alter/select
+
+[unit_test_1]
+q = Brand:*
+fl = Brand
+wt = json
+indent = true
+result_key = Brand
+result_value = North American Art,Evergreen Flag & Garden,Cooper Classics,Cortesi Home,All My Walls,International Caravan,Bernards,St. Croix,Piel,Coastal Living  by Jaipur Rugs
+
+[unit_test_2]
+q = Customer_Recommended:*
+fl = Customer_Recommended
+wt = json
+indent = true
+result_key = Customer_Recommended
+result_value = Yes
+
+[unit_test_3]
+q = Deals:*
+fl = Deals
+wt = json
+indent = true
+result_key = Deals
+result_value = On Promotion,Clearance Items
+
+[unit_test_4]
+q = Department:*
+fl = Department
+wt = json
+indent = true
+result_key = Department
+result_value = Wall Art/Decor,All Outdoor Living,Clocks,Coat Racks & Hooks,Reception Tables & Accessories,Accent Chairs
+
+[unit_test_5]
+q =  Environmental:*
+fl =  Environmental
+wt = json
+indent = true
+result_key = Environmental
+result_value = Eco Certified,Recycled,Eco Conscious,Other Eco Features
+
+[unit_test_6]
+q =   In_Store_Availability:*
+fl =  In_Store_Availability
+wt = json
+indent = true
+result_key = In_Store_Availability
+result_value = Ship To Store,Ship To Store
+
+[unit_test_7]
+q = New_Arrivals:*
+fl = New_Arrivals
+wt = json
+indent = true
+result_key = New_Arrivals
+result_value = Last 30 Days,Last 60 Days,Last 90 Days
+
+[unit_test_8]
+q = Rating:*
+fl = Rating
+wt = json
+indent = true
+result_key = Rating
+result_value = 1,2,3,4,5
+
+[unit_test_9]
+q = base_product:*
+fl = base_product
+wt = json
+indent = true
+result_key = base_product
+result_value = true
+
+[unit_test_10]
+q = inStock:*
+fl = inStock
+wt = json
+indent = true
+result_key = inStock
+result_value = True
+ 
